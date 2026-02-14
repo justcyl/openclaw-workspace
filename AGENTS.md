@@ -52,6 +52,12 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+## Verification Rule
+
+- When the human asks for facts/status/config, do not rely only on current chat context.
+- Verify with tools/files first, then answer.
+- If verification is blocked, say so explicitly.
+
 ## External vs Internal
 
 **Safe to do freely:**
