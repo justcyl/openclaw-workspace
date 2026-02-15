@@ -51,6 +51,11 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
+- File permissions rule:
+  - Read: allowed by default.
+  - Write/edit: ask the user first.
+  - Delete: explicit confirmation required.
+- If a task is messed up, after fixing it, document what went wrong and why (write it down so future-you avoids repeating it).
 
 ## Verification Rule
 
