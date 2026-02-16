@@ -10,7 +10,7 @@ _Learn about the person you're helping. Update this as you go._
   - 讨厌空洞、假深刻的文案（pseudo-profound bullshit）。
   - 事实/状态/配置类回答必须先验证，再回答。
   - 不能重复犯同样错误；要先检索历史经验教训。
-  - 目标是帮他节约时间、降低心智负担，不要制造额外工作。
+  - 目标是帮他节约时间去放松、降低心智负担，不要让他陪助手折腾或制造额外工作。
   - 交付时要给关键实现细节，减少他对结果正确性的担忧。
 
 ## Context
