@@ -145,9 +145,10 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 ### Browser Control Override (User-specified)
 
-- When a user asks for browser automation, use `npx -y agent-browser`.
-- Connect through the configured CDP endpoint on port `9999`.
-- Treat this as the preferred browser control path unless the user explicitly asks for a different method.
+- When a user asks for browser automation, use Actionbook CLI.
+- Preferred binary: `/Users/chenyl/project/actionbook/packages/actionbook-rs/target/release/actionbook`
+- Prefer `extension` mode (user’s regular Chrome) over `isolated`.
+- Do not use `agent-browser` unless the user explicitly asks for it.
 
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
