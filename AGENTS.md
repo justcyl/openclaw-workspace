@@ -145,10 +145,8 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 ### Browser Control Override (User-specified)
 
-- When a user asks for browser automation, use Actionbook CLI.
-- Preferred binary: `/Users/chenyl/project/actionbook/packages/actionbook-rs/target/release/actionbook`
-- Prefer `extension` mode (user’s regular Chrome) over `isolated`.
-- Do not use `agent-browser` unless the user explicitly asks for it.
+- When a user asks for browser automation, use the built-in `browser` tool.
+- Default to the `chrome` profile (regular Chrome via relay).
 
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
