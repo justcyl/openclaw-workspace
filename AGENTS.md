@@ -145,8 +145,10 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 ### Browser Control Override (User-specified)
 
-- When a user asks for browser automation, use the built-in `browser` tool.
-- Default to the `chrome` profile (regular Chrome via relay).
+- When a user asks for browser automation, prefer the `actionbook` CLI first.
+- Use `actionbook --help` / `actionbook browser --help` when needed.
+- If `actionbook` is unavailable, fall back to the built-in `browser` tool.
+- For built-in `browser`, default to the `chrome` profile (regular Chrome via relay).
 
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
