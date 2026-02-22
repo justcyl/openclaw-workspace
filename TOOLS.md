@@ -31,6 +31,13 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+## Local Commands
+
+- actionbook binary:
+  `/Users/chenyl/project/actionbook/packages/actionbook-rs/target/release/actionbook`
+- Quick test (open Zhihu + screenshot):
+  `AB='/Users/chenyl/project/actionbook/packages/actionbook-rs/target/release/actionbook'; $AB --browser-mode isolated --headless browser open https://www.zhihu.com && $AB --browser-mode isolated --headless browser screenshot /Users/chenyl/.openclaw/workspace/zhihu-actionbook.png`
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
